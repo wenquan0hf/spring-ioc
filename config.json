@@ -3,5 +3,5 @@
     "introduction": "IoC 是 Sring 容器的核心概念，本文是个人技术博客转载。",
     "title": "Spring-IoC 容器 - 极客学院 Wiki",
     "keywords": "BeanFactory，ApplicationContext 以及 WebApplicationContext 的基础接口，Bean 的生命周期",
-    "description": "Spring-IoC 容器，容器的概念不是特别容易理解，本课程将通过详细的代码介绍，让大家在概念以及技术两个维度清晰透彻的了解 IoC 容器。。"
+    "description": "容器的概念不是特别容易理解，本课程将通过详细的代码介绍，让大家在概念以及技术两个维度清晰透彻的了解 IoC 容器。。"
 }
