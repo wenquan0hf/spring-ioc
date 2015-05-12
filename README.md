@@ -1,12 +1,14 @@
-# spring-ioc 容器
+# Spring-iOC 容器
+
+控制反转（Inversion of Control，英文缩写为IoC）是一个重要的面向对象编程的法则来削减计算机程序的耦合问题，也是轻量级的 Spring 框架的核心。
+
+本教程将通过代码像你展示，怎么实现一个容器及 BeanFactory 的设置和多种操作。
 
 参考技术文档地址：[http://www.cnblogs.com/linzheng/archive/2011/01/03/1925052.html](http://www.cnblogs.com/linzheng/archive/2011/01/03/1925052.html)
 
-贡献者：林政
+## 适合人群
 
-## IOC 容器
-
- IOC（Inversion of Control）控制反转：本来是由应用程序管理的对象之间的依赖关系，现在交给了容器管理，这就叫控制反转，即交给了IOC容器，Spring的IOC容器主要使用DI方式实现的。不需要主动查找，对象的查找、定位和创建全部由容器管理。
+本教程为Java中高级人员准备，可以帮助你更好的理解 Spring 框架里的核心技术。
 
 ## 视频学习
 
