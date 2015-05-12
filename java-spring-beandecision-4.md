@@ -1,0 +1,1 @@
+在你关闭（或重启）应用程序时，单例（Singleton）Bean可以再次获得生命周期的回调，你可以在这时销毁Bean的一些资源。第一种方法是实现DisposableBean接口并实现它的destroy()方法。更好的方法是用“destroy-method”在Bean的定义时指定销毁方法。

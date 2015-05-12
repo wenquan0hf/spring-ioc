@@ -1,0 +1,5 @@
+BeanFactory是Spring的“心脏”。它就是Spring IoC容器的真面目。Spring使用BeanFactory来实例化、配置和管理Bean。但是，在大多数情况我们并不直接使用BeanFactory，而是使用ApplicationContext。它也是BeanFactory的一个实现，但是它添加了一系列“框架”的特征，比如：国际化支持、资源访问、事件传播等。ApplicationContext我们将在后面章节中介绍。
+
+BeanFactory其实是一个接口－org.springframework.beans.factory.BeanFactory，它可以配置和管理几乎所有的Java类。当然，具体的工作是由实现BeanFactory接口的实现类完成。我们最常用的BeanFactory实现是org.springframework.beans.factory.xml.XmlBeanFactory。它从XML文件中读取Bean的定义信息。当BeanFactory被创建时，Spring验证每个Bean的配置。当然，要等Bean创建之后才能设置Bean的属性。单例(Singleton)Bean在启动时就会被BeanFactory实例化，其它的Bean在请求时创建。根据BeanFactory的Java文档（Javadocs）介绍，“Bean定义的持久化方式没有任何的限制：LDAP、RDBMS、XML、属性文件，等等”。现在Spring已提供了XML文件和属性文件的实现。无疑，XML文件是定义Bean的最佳方式。
+
+BeanFactory是初始化Bean和调用它们生命周期方法的“吃苦耐劳者”。注意，BeanFactory只能管理单例（Singleton）Bean的生命周期。它不能管理原型(prototype,非单例)Bean的生命周期。这是因为原型Bean实例被创建之后便被传给了客户端,容器失去了对它们的引用。
