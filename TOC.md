@@ -11,5 +11,5 @@
      - [Bean 的定义](java-spring-beandecision.md)
      - [配置 Bean 的属性值和 Bean 对象的组装](java-spring-beandecision-1.md)  
      - [复杂的属性值](java-spring-beandecision-2.md)
-     - [Bean 的之前初始化](java-spring-beandecision-3.md)
+     - [Bean 初始化](java-spring-beandecision-3.md)
      - [Bean 的销毁](java-spring-beandecision-4.md)
