@@ -1,8 +1,8 @@
 - Java Spring 的 IoC 容器 
-  - [重构第一步 面向接口编程](java-spring-interface.md)
-  - [重构第二步 工厂模式](java-spring-factory.md)
-  - [重构第三步 工厂模式改进](java-spring-factory-improve.md)
-  - [重构第四步 IoC 容器](java-spring-ioc.md)
+  - [重构第一步——面向接口编程](java-spring-interface.md)
+  - [重构第二步——工厂模式](java-spring-factory.md)
+  - [重构第三步——工厂模式改进](java-spring-factory-improve.md)
+  - [重构第四步——IoC 容器](java-spring-ioc.md)
   - [控制反转（IoC）/依赖注入（DI）](java-spring-iocordi.md)
      - [依赖注入的三种实现形式](java-spring-iocordi-1.md)
      - [几种依赖注入模式的对比总结](java-spring-iocordi-2.md)
