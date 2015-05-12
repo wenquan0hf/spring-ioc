@@ -74,11 +74,11 @@ Bean 元素出了上面的两个属性之外，还有很多其它属性。说明
 
 （8）.autowire（自动装配，默认为“default”）：它定义了 Bean 的自动装载方式。
 
-- “no”:不使用自动装配功能。
-- “byName”:通过 Bean 的属性名实现自动装配。
-- “byType”:通过 Bean 的类型实现自动装配。
-- “constructor”:类似于 byType，但它是用于构造函数的参数的自动组装。
-- “autodetect”:通过 Bean 类的反省机制（introspection）决定是使用“constructor”还是使用“byType”。
+- “no”：不使用自动装配功能。
+- “byName”：通过 Bean 的属性名实现自动装配。
+- “byType”：通过 Bean 的类型实现自动装配。
+- “constructor”：类似于 byType，但它是用于构造函数的参数的自动组装。
+- “autodetect”：通过 Bean 类的反省机制（introspection）决定是使用“constructor”还是使用“byType”。
 
 （9）.dependency-check（依赖检查，默认为“default”）：它用来确保 Bean 组件通过 JavaBean 描述的所以依赖关系都得到满足。在与自动装配功能一起使用时，它特别有用。
 
