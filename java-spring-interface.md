@@ -5,9 +5,9 @@
 ```
 public interface UserDao {
 
-    public void save(User user);
+   public void save(User user);
 
-    public User load(String name);
+   public User load(String name);
 
 }
 ```
@@ -17,25 +17,25 @@ public interface UserDao {
 ```
 public class MemoryUserDao implements UserDao{
 
- private static Map users = new HashMap();;
+   private static Map users = new HashMap();
 
 static{
 
- User user = new User("Moxie","pass");
+   User user = new User("Moxie","pass");
 
- users.put(user.getName(),user);
+   users.put(user.getName(),user);
 
  }
 
  public void save(User user) {
 
- users.put(user.getId(),user);
+   users.put(user.getId(),user);
 
  }
 
 public User load(String name) {
 
- return (User)users.get(name);
+   return (User)users.get(name);
 
  }
 
