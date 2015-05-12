@@ -86,7 +86,6 @@ init-method=”init”>
 
 </bean>
 ```
-### setBeanFactory()
 
 ##  Bean 的准备就绪（Ready）状态
 
