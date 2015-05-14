@@ -1,4 +1,4 @@
-# 重构第四步——IoC 容器
+# IoC 容器
 
 使用 IoC 容器，用户注册类`UserRegister`不用主动创建`UserDao`实现类的实例。由 IoC 容器主动创建`UserDao`实现类的实例，并注入到用户注册类中。我们下面将使用 Spring 提供的 IoC 容器来管理我们的用户注册类。
 
