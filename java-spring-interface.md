@@ -1,6 +1,6 @@
 # 面向接口编程
 
-## 设计用户持久化类的接口`UserDao`，代码如下：
+设计用户持久化类的接口`UserDao`，代码如下：
 
 ```
 public interface UserDao {
@@ -12,7 +12,7 @@ public interface UserDao {
 }
 ```
 
-## 具体的持久化来必须要继承`UserDao`接口，并实现它的所有方法。我们还是首先实现内存持久化的用户类：
+具体的持久化来必须要继承`UserDao`接口，并实现它的所有方法。我们还是首先实现内存持久化的用户类：
 
 ```
 public class MemoryUserDao implements UserDao{
