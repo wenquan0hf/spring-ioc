@@ -4,7 +4,7 @@
 
 参考技术文档地址：[http://www.cnblogs.com/linzheng/archive/2011/01/03/1925052.html](http://www.cnblogs.com/linzheng/archive/2011/01/03/1925052.html)
 
-Spring-iOC 编程示例地址：[http://www.cnblogs.com/linzheng/archive/2011/01/03/1925062.html](http://www.cnblogs.com/linzheng/archive/2011/01/03/1925062.html) 
+Spring-IoC 编程示例地址：[http://www.cnblogs.com/linzheng/archive/2011/01/03/1925062.html](http://www.cnblogs.com/linzheng/archive/2011/01/03/1925062.html) 
 
 ## 适合人群
 
